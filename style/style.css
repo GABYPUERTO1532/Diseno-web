@@ -94,6 +94,19 @@
     border: 1px solid black;
 }
 
+/*ESTILOS CLASE: 20-02-23*/
+.container-fluid_20-02{
+
+    /*margin-top: De funcionamiento similar a la propiedad margin, sin embargo esta solo ajusta la margen superior del elemento*/
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.titulo_principal_20-02{
+    margin: 10px 0px 20px 0px;
+}
+
 /*PROPIEDADES GROBALES*/
 section{
     margin: 10px 10px 10px 10px;
