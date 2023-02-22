@@ -82,6 +82,23 @@
     height: 315px;
 }
 
+/*ESTILOS CLASE: 14/02/23*/
+.table_14-02{
+
+    /*
+        border: Permite definir el estilo de borde del elemento. Esta propiedad recibe maximo 4 paramentros, los mas comunes son:
+
+        border: ancho_borde estilo_borde color_borde;
+        
+    */
+    border: 1px solid black;
+}
+
+/*PROPIEDADES GROBALES*/
+section{
+    margin: 10px 10px 10px 10px;
+}
+
 
 .card{
     margin: 0px 10px 0px 10px;

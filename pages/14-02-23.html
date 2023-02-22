@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--Hoja de Estilos Personalizada-->
+    <!--Icono Header-->
     <link rel="icon" type="image/x-icon" href="../icons/favicon.ico">
 
-    <!--Icono Header-->
+    <!--Hoja de Estilos Personalizada-->    
     <link rel="stylesheet" href="../style/style.css">
 
     <title>Clase 14-02-23</title>
@@ -17,30 +17,55 @@
 
     <h1>Manejo de Estilos CSS</h1>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Encabezado 1</th>
-                <th>Encabezado 2</th>
-                <th>Encabezado 3</th>
-                <th>Encabezado 4</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Registro 1 - Campo 1</td>
-                <td>Registro 1 - Campo 2</td>
-                <td>Registro 1 - Campo 3</td>
-                <td>Registro 1 - Campo 4</td>
-            </tr>
-            <tr>
-                <td>Registro 2 - Campo 1</td>
-                <td>Registro 2 - Campo 2</td>
-                <td>Registro 2 - Campo 3</td>
-                <td>Registro 2 - Campo 4</td>
-            </tr>
-        </tbody>
-    </table>
-    
+    <section id="enlace_css">
+
+        <p>¿Como conecto una hoja de estilos CSS?</p>
+
+        <strong>&lt; link rel="stylesheet" href="ruta/hoja/estilos.css" &gt;</strong>
+
+        Cada que queramos agregar una Hoja de estilos, solo debemos repetir esta etiqueta cambiando el valor del atributo href que corresponde a la ruta de la hoja de estilos
+
+    </section>
+
+    <section id="icono_header">
+
+        <p>¿Como incrusto un icono personalizado en el Header?</p>
+
+        <strong>&lt; link rel="icon" type="image/x-icon" href="ruta/icono/favicon.ico" &gt;</strong>
+
+        Cuando queramos agregar una imaghen a la cabecera de la pagina web, debemos agregar esta etiqueta y reemplazar el valor del atributo href por la ruta de la imagen, la cual debe estar en formato ".ico" (Con sus respectivas medidas de alto y ancho), asi mismo, es recomendable siempre llamar al archivo "favicon.ico"
+        
+    </section>
+
+    <section id="tabla">
+
+        <h2></h2>
+
+        <table class="table_14-02">
+            <thead>
+                <tr>
+                    <th class="table_14-02">Encabezado 1</th>
+                    <th class="table_14-02">Encabezado 2</th>
+                    <th class="table_14-02">Encabezado 3</th>
+                    <th class="table_14-02">Encabezado 4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="table_14-02">Registro 1 - Campo 1</td>
+                    <td class="table_14-02">Registro 1 - Campo 2</td>
+                    <td class="table_14-02">Registro 1 - Campo 3</td>
+                    <td class="table_14-02">Registro 1 - Campo 4</td>
+                </tr>
+                <tr>
+                    <td class="table_14-02">Registro 2 - Campo 1</td>
+                    <td class="table_14-02">Registro 2 - Campo 2</td>
+                    <td class="table_14-02">Registro 2 - Campo 3</td>
+                    <td class="table_14-02">Registro 2 - Campo 4</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
 </body>
 </html>
