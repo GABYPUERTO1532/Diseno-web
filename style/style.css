@@ -1,3 +1,12 @@
+@font-face {
+    font-family: Comfortaa;
+    src: url(../fonts/Comfortaa-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/RobotoCondensed-Light.ttf);
+}
 
 .card{
     margin: 0px 10px 0px 10px;
