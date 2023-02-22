@@ -1,5 +1,12 @@
+/*
+    Font-face: Permite importar fuentes externasy no depender de las instaladas en el sistema o navegador donde se habra la pagina web.
+*/
 @font-face {
+
+    /*font-family (Solo en font-face): Permite definir el nombre que tendra nuestra fuente personalizada*/
     font-family: Comfortaa;
+
+    /*src:url(): Permite definir la ruta del archivo donde esta guardado el estilo de la fuente*/
     src: url(../fonts/Comfortaa-VariableFont_wght.ttf);
 }
 
@@ -7,6 +14,74 @@
     font-family: Roboto;
     src: url(../fonts/RobotoCondensed-Light.ttf);
 }
+
+/*ESTILOS CLASE: 10/02/23*/
+
+#body_10-02{
+    background-color: #e5b3fe;
+}
+
+.ejem_h1{
+
+    /*font-family: Permite definir que tipo de Fuente Usara*/
+    font-family: Comfortaa;
+
+    /*letter-spacing: Permite definir el espacio entre letra y letra*/
+    letter-spacing: 2px;
+
+    /*font-weight: Permite definir que tanta negrita tendra el texto*/
+    font-weight: 500;
+
+    /*text-aling: Permite definir la orientacion del texto*/
+    text-align: center;
+
+    /*font-style: Permite definir estilos adicionales al texto (Italica, Oblicua, etc)*/
+    font-style: oblique;
+}
+
+.ejem_h2{
+    font-family: Comfortaa;
+
+    /*font-size: Permite definir el tamaño de la letra*/
+    font-size: 20px;
+}
+
+.ejem_h3{
+
+    /*color: Permite definir el color que tendra las fuente (Acepta no solo el nombre del color, sino escalas como RGB, entre otras)*/
+    color: yellow;
+}
+
+.ejem_h4{
+    color:green;
+}
+
+.ejem_h5{
+    color:violet;
+}
+
+.ejem_h6{
+    color:pink;
+}
+
+.ol_10-02{
+    /*
+        margin: Nos permite definir las margenes del elemento en el siguiente orden:
+
+            margin: arriba derecha abajo izquierda;
+    */
+    margin: 10px 0px 10px 0px;
+}
+
+.media_10-02{
+
+    /*width: Permite definir el ancho del elemento*/
+    width: 420px;
+
+    /*height: Permite definir el alto del elemento*/
+    height: 315px;
+}
+
 
 .card{
     margin: 0px 10px 0px 10px;

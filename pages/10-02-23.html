@@ -9,26 +9,62 @@
     <link rel="stylesheet" href="../style/style.css">
 
 </head>
-<body> 
+<body id="body_10-02"> 
 
-    <!--Titulo Principla-->
-    <h1>Clase Diseño Web</h1>
+    <!--Titulo Principal-->
+    <h1 class="ejem_h1">Clase Diseño Web</h1>
 
-    <section>
+    <!--Seccion 1: Etiquetas Titulo-->
+    <section id="etiquetas_titulo">
+
+        <h1 class="ejem_h1" style="text-align: justify;">Titulo (Unico)</h1>        
+        <h2 class="ejem_h2">Subtitulo 1</h2>
+        <h3 class="ejem_h3">Subtitulo 2</h3>
+        <h4 class="ejem_h4">Subtitulo 3</h4>
+        <h5 class="ejem_h5">Subtitulo 4</h5>
+        <h6 class="ejem_h6">Subtitulo 6</h6>
+
+    </section>
+
+    <!--Seccion 2: Etiquetas Generales-->
+    <section id="etiquetas_generales">
+
         <h2>Listado Etiquetas Vistas</h2>
+
         <ul>
-            <li><strong>h1:</strong>Titulo Principal del sitio Web</li>
+            <li>
+                <!--
+                    ¿Como moestrar etiquetas HTML sin que estas se ejecuten?:
 
-            <li><strong>h2...h6:</strong>Subtitulos de la pagina Web por nivel de inportancia (Descendente</li>
+                    Para generar los "<" y ">" sin que se ejecuten debermos reemplazarlos por:
 
-            <li><strong>p: </strong>Parrafo de Texto</li>
-
-            <li><strong>section: </strong>Seccion de contenido que no esta directamente relacionado con sus demas hermanos section</li>
+                        &lt; -> "<"
+                        &gt; -> ">"
+                -->
+                <strong>&lt; h1 &gt; &lt; /h1 &gt;</strong>
+                Titulo Principal de la pagina Web
+            </li>
 
             <li>
-                <strong>img: </strong>Pemite insertar una imagen dentro de nuestro sitio web, las imagenes deben esta en formato:
+                <strong>&lt; h2..h6 &gt; &lt; /h2..h6 &gt;</strong>
+                Subtitulos de la pagina web (En orden Descendente segun su importancia)
+            </li>
 
-                <ol class="sub_lista">
+            <li>
+                <strong>&lt; p &gt; &lt; /p &gt;</strong>
+                Parrafo de Texto
+            </li>
+
+            <li>
+                <strong>&lt; section &gt; &lt; /section &gt;</strong>
+                Seccion de contenido que no esta directamente relacionado con sus demas hermanos section
+            </li>
+
+            <li>
+                <strong>&lt; img src="ruta/archivo.extension" &gt;</strong>
+                Pemite insertar una imagen dentro de nuestro sitio web, las imagenes pueden estar unicamente en los siguientes formatos
+                
+                <ol class="ol_10-02">
                     <li>JPEG</li>
                     <li>GIF</li>
                     <li>PNG</li>
@@ -37,27 +73,28 @@
                     <li>BMP ICO</li>
                     <li>PNG ICO</li>
                 </ol>
+
             </li>
 
-            <li><strong>iframe: </strong>Permite mostrar contenido de navegacion anidado</li>
+            <li>
+                <strong>&lt; iframe src="ruta/www.video.com/online/offline.mp4" &gt;</strong>
+                Permite incrustar elementos existentes de otras paginas web, teniendo su respectivo enlace (Por ejemplo, videos de youtube o mapas de google)
+            </li>
         </ul>
+
     </section>
 
-    <h3>Subtitulo H3</h3>
-    <h4>Subtitulo H4</h4>
-    <h5>Subtitulo H5</h5>
-    <h6>Subtitulo H6</h6>
+    <section id="incrustacion_media">
 
-    <p>Segunda Clase de Diseño Web</p>
-
-    <section>
-        <iframe width="420" height="315"
-        src="https://www.youtube.com/embed/s6nvfbD2mBQ?autoplay=1&mute=1">
+        <iframe class="media_10-02" src="https://www.youtube.com/embed/s6nvfbD2mBQ">
         </iframe>
+
+        <img src="../media/libro.png" class="media_10-02">
+
     </section>
 
     <section>
-        <img src="libro.png" alt="">
+        
     </section>
 </body>
 </html>
