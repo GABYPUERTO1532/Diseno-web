@@ -107,6 +107,27 @@
     margin: 10px 0px 20px 0px;
 }
 
+.div_20-03{
+    margin: 0px 20px 0px 20px;
+}
+
+/*ESTILOS EJERCICIO GRILLA*/
+.body_23-02{
+    background-color: #454d55;
+}
+
+.h1_23-02,.section_23-02{
+    color: white;
+}
+
+.p_23-02{
+    margin: 10px 5px 10px 5px;
+}
+
+.lista_rejilla_23-02{
+    list-style: none;
+}
+
 /*PROPIEDADES GROBALES*/
 section{
     margin: 10px 10px 10px 10px;

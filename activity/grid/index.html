@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad de Cuadricula</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../../style/style.css">
+
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+</head>
+<body class="body_23-02">
+
+    <h1 class="ejem_h1 ol_10-02 h1_23-02">Responsividad y Sistema de Cuadricula</h1>
+
+    <div class="container-fluid text-center">
+
+        <table class="table table-dark table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th class="col-xl-8 col-lg-4 col-md-2 col-sm-10 col-10">Col 1</th>
+
+                    <th class="col-xl-2 col-lg-4 col-md-5 col-sm-1 col-1">Col 2</th>
+
+                    <th class="col-xl-2 col-lg-4 col-md-5 col-sm-1 col-1">Col 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="col-xl-8 col-lg-4 col-md-2 col-sm-10 col-10">
+                    <td>Registro 1 - Col 1</td>
+                    <td>Registro 1 - Col 2</td>
+                    <td>Registro 1 - Col 3</td>
+                </tr>
+
+                <tr class="col-xl-2 col-lg-4 col-md-5 col-sm-1 col-1">
+                    <td>Registro 2 - Col 1</td>
+                    <td>Registro 2 - Col 2</td>
+                    <td>Registro 2 - Col 3</td>
+                </tr>
+
+                <tr class="col-xl-2 col-lg-4 col-md-5 col-sm-1 col-1">
+                    <td>Registro 3 - Col 1</td>
+                    <td>Registro 3 - Col 2</td>
+                    <td>Registro 3 - Col 3</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    <section class="section_23-02" id="sistema_rejilla">
+
+        <h2 class="ejem_h1 ol_10-02">Sistema de Rejilla o Cuadricula de Bootstrap</h2>
+
+        <table class="table table-dark text-center table-bordered">
+            <thead>
+                <tr>
+                    <th class="col-xl-6 col-lg-6 col-md-6 col-sm-4 col-4">¿Que es el sistema de Rejilla?</th>
+                    
+                    <th class="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-8">Puntos de Interrupcion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                    <td>
+                        <p class="p_23-02">
+                            Es un sistema que partiendo de las flex-box o <strong>"cajas flexibles"</strong>, permiten que el contenido se adapte hasta en 5 posibles escenarios, mejor conocidos como<strong>"puntos de interrupcion"</strong>.
+                        </p>
+                        <p>
+                            Todo esto <strong>diviendo la resolucion actual de la pantalla en 12 partes iguales</strong> que conforman una especie de "cuadricula", la cual nos permite <i>(A través de ciertas clases especificas)</i>, poder especificar cuantos "cuadritos" debe tomar cierto elemento segun la resolucion actual del dispositivo.
+                        </p>
+                    </td>
+
+                    <td>
+                        <ul class="lista_rejilla_23-02">
+
+                            <li>
+                                <p>
+                                    Muy Pequeño <strong>(col-xx):</strong>
+
+                                    Resolucion comprendida entre los <strong>0px</strong> hasta los <strong>575px</strong>
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    Pequeño <strong>(col-sm-xx):</strong>
+
+                                    Resolucion comprendida entre los <strong>576px</strong> hasta <strong>767px</strong>
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    Medio <strong>(col-md-xx):</strong>
+
+                                    Resolucion comprendida entre los <strong>768px</strong> hasta <strong>991px</strong>
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    Grande <strong>(col-lg-xx):</strong>
+
+                                    Resolucion comprendida entre los <strong>992px</strong> hasta <strong>1199px</strong>
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    Extra Grande <strong>(col-xl-xx):</strong>
+
+                                    Resolucion comprendida entre los <strong>1200px en adelante</strong>
+                                </p>
+                            </li>
+                            
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="link_group">
+        
+    </section>
+
+    <section class="text-center">
+        <a class="btn btn-primary" href="../" role="button">Volver al listado de actividades</a>
+    </section>
+    
+</body>
+</html>
