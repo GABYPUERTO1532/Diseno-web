@@ -112,13 +112,17 @@ section{
     margin: 10px 10px 10px 10px;
 }
 
-
 .card{
     margin: 0px 10px 0px 10px;
 }
 
-h1{
+.seccion_cabecera{
+    display: block;
+}
+
+.titulo_home{
     margin: 15px 0px 15px 0px;
+    display: inline;
 }
 
 a{
