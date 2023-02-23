@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Nunito;
+    src: url(fonts/Nunito-VariableFont_wght.ttf);
+}
+body{
+    background-color: #caaac2;
+    font-family: Nunito;
+}
+
+h1,td,h2{
+    text-align: center;
+}
+
+h2{
+    font-weight: 300;
+}
+
+p{
+    margin: 0px 0px 0px 0px;
+}
+
+main{
+    margin: 20px 0px 20px 0px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.basurita{
+    visibility: hidden;
+}

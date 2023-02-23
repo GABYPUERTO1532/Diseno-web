@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+
+        <!--Atributo Meta charset: Codificacion de los Caracteres (Permite representar todo tipo de Caracteres de diferentes Lenguas)-->
+        <meta charset="UTF-8">
+
+        <!--
+            Atributo Meta http-equiv (Desuso en Navegadores Modernos):
+
+            Tiene como fin permitir que navegadores antiguos como Internet Explorer puedan ejcutar nuestra pagina web con las nuevas etiquetas presentes en los estandares actuales (Este proceso de compatibilidad genera una perdida de rendimiento)
+        -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!--
+            Atributo Meta viewport: Tiene como fin permitir adaptar el contenido del sitio web, con el fin de permitirle ser "responsive", es decir, poder adapatar el tamaño de su contenido para poder ser visto en dispositivos de resoluciones mas pequeñas
+
+            - Width: Permite especificar el ancho en pixeles (1 a 10000) que debera tener el dispositivo, al que queramos aplicar la responsividad. El valor "device-width", establece usar el 100% del ancho disponible
+
+            - Initial Scale: Permite controlar nivel de zoom o "tamaño" que tendra la interfaz -> 0.1: Minimo , 10: Maximo, 0.1: Predeterminado/Estandar 
+
+            Esta etiqueta debera ser repetida por cada tipo de dispositivo al que se le quiera dar soporte responsive (Aunque hoy en dia Frameworks como Bootstrap general este proceso de forma automatica).
+        -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Atributo meta: Author -> Almacena el nombre del la organizacion/persona autora de la pagina web-->
+        <meta name="author" content="Gaby Puerto">
+
+        <!--Atributo meta: Description -> describir el contenido de la pagina web (Posicionamiento SEO)-->
+        <meta name="description" content="Sitio web para ver el horario por subfichas">
+
+        <!--Atributo meta: Keywords -> Describir el contenido de la pagina web a traves de palabras clave (Posicionamiento SEO)-->
+        <meta name="keywords" content="HTML5, CSS3, JAVASCRIPT, SENA, HORARIO">
+        <title>2686374 | Data Table</title>
+
+        <!--Vinculo icono Cabecera-->
+        <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+
+        <!--Vinculo icono Personalizada-->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!--Contenido Principal Pagina web-->
+        <main>
+
+            <!--Titulo Principal Pagina web-->
+            <h1>Tecnologo en Analisis y Programación de software</h1>
+
+            <!--Titulo Tabla horario (1/2)-->
+            <h2>
+                <!--Negrita-->
+                <strong>Ficha:</strong> 
+                2686374-1
+            </h2>
+
+            <!--Seccion 1: Tabla Horario (1/2)-->
+            <section>
+                
+                <!--Estructura 1: Tabla Horario Ficha: 2686374-1-->
+                <table>
+                    <!--Encabezado Tabla-->
+                    <thead>
+                        <!--Crear Una fila-->
+                        <tr>
+                            <!--Crear una Columna resaltada (Solo para Encabezados)-->
+                            <th>Nombre Aprendiz</th>
+                            <th>
+                                <!--Parrafo-->
+                                <p>Mes:</p>
+                                <p>February</p>
+                            </th>
+                            <th>Asignatura</th>
+                            <th>Horario</th>
+                            <th>Modalidad</th>
+                        </tr>
+                    </thead>
+                    <!--Contenido Principal o Body de Tabla-->
+                    <tbody>
+                        <!--Primer y Unico Registro en tabla--> 
+                        <tr>
+
+                            <!--Crea una columna Estandar-->
+                            <td>PEPITO EDUARDO PEREZ OSORIOS</td>
+
+                            <!--Subestructura 1: Tabla Calendario-->
+                            <td>
+                                <!--Aplicar Estilos "Genericos" en bordes de la tabla-->
+                                <table border="3">
+                                    <thead>
+
+                                        <!--Dias habiles restantes mes Febrero-->
+                                        <tr>
+                                            <th>13</th>
+                                            <th>14</th>
+                                            <th>15</th>
+                                            <th>16</th>
+                                            <th>17</th>
+                                            <th>20</th>
+                                            <th>21</th>
+                                            <th>22</th>
+                                            <th>23</th>
+                                            <th>24</th>
+                                            <th>27</th>
+                                            <th>28</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <!--Horario Calidad en el Desarrollo de Software-->
+                                        <tr>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                        </tr>
+
+                                        <!--Horario Diseño Web-->
+                                        <tr>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                        </tr>
+
+                                        <!--Horario Arquitectura de Software-->
+                                        <tr>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                        </tr>
+
+                                        <!--Horario Bases de datos relacionales-->
+                                        <tr>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </td>
+
+                            <!--Subestructura 2: Tabla Asignaturas-->
+                            <td>
+                                <table>
+
+                                    <!--Explicacion estructura: Con el fin de ajustar el margen, se inserta una fila falsa o "Basurita" -->
+                                    <tr class="basurita">
+                                        <td>Basurita</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Calidad En el Desarrollo de software</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Diseño Web</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Arquitectura de Software</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bases de Datos Relacionales</td>
+                                    </tr>
+                                </table>
+                            </td>
+
+                            <td>
+                                <!--Subestructura 3: Tabla Horario-->
+                                <table>
+                                    <tr class="basurita">
+                                        <td>Basurita</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9:00 a 12:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6:00 a 9:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6:00 a 9:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9:00 a 12:00</td>
+                                    </tr>
+                                </table>
+                            </td>
+                            
+                            <td>
+                                <!--Subestructura 4: Tabla Modalidad-->
+                                <table>
+                                    <tr class="basurita">
+                                        <td>Basurita</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Presencial</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Presencial</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Presencial</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Presencial</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!--Titulo Tabla horario (2/2)-->
+            <h2>
+                <strong>Ficha:</strong> 
+                2686374-2
+            </h2>
+
+            <!--Seccion 1: Tabla Horario (2/2)-->
+            <section>
+                
+                <!--Estructura 1: Tabla Horario Ficha: 2686374-2-->
+                <table>
+                    <!--Encabezado Tabla-->
+                    <thead>
+                        <tr>
+                            <th>Nombre Aprendiz</th>
+                            <th>
+                                <p>Mes:</p>
+                                <p>February</p>
+                            </th>
+                            <th>Asignatura</th>
+                            <th>Horario</th>
+                            <th>Modalidad</th>
+                        </tr>
+                    </thead>
+                    <!--Contenido Principal o Body de Tabla-->
+                    <tbody>
+                        <!--Primer y Unico Registro en tabla--> 
+                        <tr>
+                            <td>SANDRA GABRIELA PUERTO ROJAS</td>
+
+                            <!--Subestructura 1: Tabla Calendario-->
+                            <td>
+                                <table border="3">
+                                    <thead>
+
+                                        <!--Dias habiles restantes mes Febrero-->
+                                        <tr>
+                                            <th>13</th>
+                                            <th>14</th>
+                                            <th>15</th>
+                                            <th>16</th>
+                                            <th>17</th>
+                                            <th>20</th>
+                                            <th>21</th>
+                                            <th>22</th>
+                                            <th>23</th>
+                                            <th>24</th>
+                                            <th>27</th>
+                                            <th>28</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <!--Horario Bases de Datos Relacionales-->
+                                        <tr>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+
+                                        <!--Horario Arquitectura de Software-->
+                                        <tr>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                        </tr>
+
+                                        <!--Horario Calidad en el Desarrollo de Software-->
+                                        <tr>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                        </tr>
+
+                                        <!--Horario Diseño web-->
+                                        <tr>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td>X</td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+
+                            <!--Subestructura 2: Tabla Asignaturas-->
+                            <td>
+                                <table>
+
+                                    <!--Explicacion estructura: Con el fin de ajustar el margen, se inserta una fila falsa o "Basurita" -->
+                                    <tr class="basurita">
+                                        <td>Basurita</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Bases de Datos Relacionales</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Arquitectura de Software</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Calidad en el Desarrollo de Software</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Diseño Web</td>
+                                    </tr>
+                                </table>
+                            </td>
+
+                            <td>
+                                <!--Subestructura 3: Tabla Horario-->
+                                <table>
+                                    <tr class="basurita">
+                                        <td>Basurita</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6:00 a 9:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9:00 a 12:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6:00 a 9:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9:00 a 12:00</td>
+                                    </tr>
+                                </table>
+                            </td>
+                            
+                            <td>
+                                <!--Subestructura 4: Tabla Modalidad-->
+                                <table>
+                                    <tr class="basurita">
+                                        <td>Basurita</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sincronica</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Presencial</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Presencial</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sincronica</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+        <!--&copy: Simbolo Copyright-->
+        <p> &copy Todos los derechos Reservados</p>
+    </body>
+</html>
